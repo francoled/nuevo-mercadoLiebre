@@ -11,6 +11,7 @@ app.get('/login',function(req,res){
 
 const publicpath=path.resolve(__dirname,'./public')
 app.use(express.static('public'));
+
 const port=process.env.PORT || 3000;
 
 app.listen(port,() => {

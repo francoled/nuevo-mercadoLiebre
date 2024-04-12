@@ -25,11 +25,17 @@ header{
     justify-content: center;
     align-items: center;
 }
-
+.enlaces{
+    text-decoration: none;
+}
 .search-bar{
     position: relative;
     display: flex;
     padding: 10px;
+}
+nav a{
+    text-decoration: none;
+
 }
 
 .search-bar input{
@@ -127,6 +133,7 @@ h3{
 article{
     margin-bottom: 10px;
     background-color: white;
+   
 }
 
 section article img{
@@ -308,10 +315,15 @@ input:focus{
     }
 
     header nav {
-        display: none; 
+        display: none;
+         
+    }
+    nav a{
+        text-decoration: none;
+        font-size: 20px;
     }
 
-    .price-and-discount{
+    .contentP{
         display: flex;
     }
     .prices{
@@ -328,11 +340,17 @@ input:focus{
         display: none; 
     }
 
+
+
     nav {
         display: flex;
         justify-content: space-between;
+        
     }
-
+    nav a{
+        text-decoration: none;
+        font-size: 18px;
+    }
     .nav-bar-list{
         display: flex;
         justify-content: center;
@@ -341,6 +359,11 @@ input:focus{
     .nav-bar-list li{
         margin: 0px 6px;
     }
+
+    #login-main{
+        padding: 10%;
+    }
+    
 
     .login-bar-list{
         display: flex;
@@ -355,6 +378,17 @@ input:focus{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
+    
+    }
+    .contentP{
+        display: flex;
+        width: 100%;
+    }
+    .prices{
+     width: 35%;   
+    }
+    .discounts{
+        width: 30%;
     }
 
     article {
@@ -365,6 +399,7 @@ input:focus{
 
     article:hover .descriptions{
         display: block;
+        
     }
 }
 
@@ -390,9 +425,11 @@ input:focus{
         box-shadow: none;
         width: 24%;
     }
+    
 
     article:hover{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        border-top: solid 1px #bababa;
     }
 
     article:hover i{
@@ -400,7 +437,9 @@ input:focus{
     }
 
 
-
+    .enlaces{
+        text-decoration: none;
+    }
     .nav-bar-list li{
         padding: 0px 15px;
     }
